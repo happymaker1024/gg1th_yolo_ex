@@ -35,5 +35,5 @@ uv add torch torchvision
 uv add inference-sdk
 uv add python-dotenv
 uv add roboflow
-uv add "opencv-python==4.14.0.94"
+uv add "opencv-python==4.12.0.88"
 ```
