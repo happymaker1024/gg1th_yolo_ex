@@ -9,15 +9,15 @@ cd yolo_ex
 ```
 
 # 가상환경 만들기
-- 현재 PowerShell에서 스크립트 실행 허용
-``
-Set-ExecutionPolicy -Scope Process ExecutionPolicy Bypass
-``
+- 현재 PowerShell에서 스크립트 실행 허용  
+```
+Set-ExecutionPolicy -Scope Process-ExecutionPolicy Bypass
+```
 - 가상환경 만들기
-``
+```
 uv init --bare --python 3.12 --name yolo-ex
 uv python pin 3.12
-``
+```
 
 # 주피터 노트북 환경만들기
 ```
