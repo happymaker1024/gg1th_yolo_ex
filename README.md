@@ -11,7 +11,7 @@ cd yolo_ex
 # 가상환경 만들기
 - 현재 PowerShell에서 스크립트 실행 허용  
 ```
-Set-ExecutionPolicy -Scope Process-ExecutionPolicy Bypass
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 - 가상환경 만들기
 ```
