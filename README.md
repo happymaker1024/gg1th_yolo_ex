@@ -37,3 +37,14 @@ uv add python-dotenv
 uv add roboflow
 uv add "opencv-python==4.12.0.88"
 ```
+
+# jpyter lab 사용
+- jupyterlab 설치
+```
+uv add jupyterlab
+```
+
+- jupyterlab 실힝
+```
+uv run jupyter lab
+```
